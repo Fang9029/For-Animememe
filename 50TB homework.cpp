@@ -14,7 +14,7 @@ int main() {
 	 	cout << "Do you want to have fun?(y/n)" << endl;
 	 	cin >> Destiny;
 	 	if (Destiny == 'Y'|| Destiny =='y'){
-	 		funNum = (rand() % 262460) + 1; 
+	 		funNum = rand() * (262460/RAND_MAX); 
 	 		cout <<"https://nhentai.net/g/" << funNum << endl;
 		 }
 	 	else if(Destiny == 'N'|| Destiny == 'n'){
