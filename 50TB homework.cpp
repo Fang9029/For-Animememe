@@ -15,7 +15,7 @@ int main() {
 	 	cin >> Destiny;
 	 	if (Destiny == 'Y'|| Destiny =='y'){
 	 		funNum = (rand() % 262460) + 1; 
-	 		cout <<"www.nhentai.net/g/" << funNum << endl;
+	 		cout <<"https://nhentai.net/g/" << funNum << endl;
 		 }
 	 	else if(Destiny == 'N'|| Destiny == 'n'){
 	 		cout << "Sayonara,Weeb." << endl;
