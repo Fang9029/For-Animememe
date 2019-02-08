@@ -8,7 +8,7 @@ using namespace std;
 int main() {
 	
 	srand(time(NULL));
-	int funNum;
+	unsigned long funNum;
 	char Destiny;
 	 do{
 	 	cout << "Do you want to have fun?(y/n)" << endl;
