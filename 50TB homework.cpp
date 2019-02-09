@@ -11,14 +11,14 @@ int main() {
 	unsigned long funNum = 0;
 	unsigned long funNum2 = 0;
 	unsigned long Arc1 = 263;
-	unsigned long Arc2 = 701; // 262529 is the currect number of hentai.
+	unsigned long Arc2 = 701; // 262640 is the currect number of hentai.
 	char Destiny;
 	 do{
 	 	cout << "Do you want to have fun?(y/n)" << endl;
 	 	cin >> Destiny;
 	 	if (Destiny == 'Y'|| Destiny =='y'){
 	 		funNum = (rand()% Arc1); //0 to 262;
-	 		funNum2 = (rand()% Arc2); // 0 - 550.
+	 		funNum2 = (rand()% Arc2); // 0 - 700.
 	 		if(funNum == '0'){
 	 			cout <<"";
 			 }
